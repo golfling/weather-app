@@ -1,0 +1,84 @@
+{
+    "@@locale": "en",
+    
+    "temperatureUnit": "°F",
+
+    "temperatureUnitWithValue": "{value}°F",
+    "@temperatureUnitWithValue": {
+        "placeholders": {
+            "value": {}
+        }
+    },
+
+    "updateTimeMinutes": "{count, plural, =0{Just updated} one{Updated {count} minute ago} other{Updated {count} minutes ago}}",
+    "@updateTimeMinutes": {
+        "placeholders": {
+            "count": {}
+        }
+    },
+
+    "updateTimeHours": "{count, plural, one{Updated {count} hour ago} other{Updated {count} hours ago}}",
+    "@updateTimeHours": {
+        "placeholders": {
+            "count": {}
+        }
+    },
+
+    "updateTimeDays": "{count, plural, one{Updated {count} day ago} other{Updated {count} days ago}}",
+    "@updateTimeDays": {
+        "placeholders": {
+            "count": {}
+        }
+    },
+
+    "hourlyForecast": "Hourly forecast",
+
+    "fielsLikeTemperature": "Fiels like {count}°F",
+    "@fielsLikeTemperature": {
+        "placeholders": {
+            "count": {}
+        }
+    },
+
+    "timeFormatHours": "{hours}",
+    "@timeFormatHours": {
+        "description": "Format time for hourly forecast",
+        "placeholders": {
+            "hours": {
+                "type": "DateTime",
+                "format": "j",
+                "example": "2 PM"
+            }
+        }
+    },
+
+    "weekdayTranslate": "{weekday, select, Mon{Mon} Tue{Tue} Wed{Wed} Thu{Thu} Fri{Fri} Sat{Sat} Sun{Sun}}",
+    "@weekdayTranslate": {
+        "placeholders": {
+            "weekday": {
+                "example": "Mon"
+            }
+        }
+    },
+
+    "monthTranslate": "{month, select, Jan{Jan} Feb{Feb} Mar{Mar} Apr{Apr} May{May} Jun{Jun} Jul{Jul} Aug{Aug} Sep{Sep} Oct{Oct} Nov{Nov} Dec{Dec}}",
+    "@monthTranslate": {
+        "placeholders": {
+            "month": {
+                "example": "Jan"
+            }
+        }
+    },
+
+    "noNetConnection": "Please check your internet connection.",
+
+    "noNetConnectionNotification": "No internet connection",
+
+    "noGeolocationInfo": "Please enable location services",
+
+    "enterCity": "Enter a city",
+
+    "smthWentWrong": "Something went wrong.",
+
+    "nothingFound": "Nothing found."
+}

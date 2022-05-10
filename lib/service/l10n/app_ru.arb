@@ -1,0 +1,58 @@
+{
+    "@@locale": "ru",
+
+    "temperatureUnit": "°F",
+
+    "temperatureUnitWithValue": "{value}°C",
+
+    "updateTimeMinutes": "{count, plural, =0{Обновлено только что} one{Обновлено {count} минуту назад} few{Обновлено {count} минуты назад} many{Обновлено {count} минут назад} other{Обновлено {count} минуту назад}",
+
+    "updateTimeHours": "{count, plural, one{Обновлено {count} час назад} few{Обновлено {count} часа назад} many{Обновлено {count} часов назад} other{Обновлено {count} час назад}}",
+
+    "updateTimeDays": "{count, plural, one{Обновлено {count} день назад} few{Обновлено {count} дня назад} many{Обновлено {count} дней назад} other{Обновлено {count} день назад}}",
+
+    "hourlyForecast": "Прогноз на час",
+
+    "fielsLikeTemperature": "Ощущается как {count}°C",
+
+    "timeFormatHours": "{hours}:00",
+    "@timeFormatHours": {
+        "placeholders": {
+            "hours": {
+                "type": "DateTime",
+                "format": "Hm",
+                "example": "14:00"
+            }
+        }
+    },
+
+    "weekdayTranslate": "{weekday, select, Mon{Пн} Tue{Вт} Wed{Ср} Thu{Чт} Fri{Пт} Sat{Сб} Sun{Вс}}",
+    "@weekdayTranslate": {
+        "placeholders": {
+            "weekday": {
+                "example": "Mon"
+            }
+        }
+    },
+
+    "monthTranslate": "{month, select, Jan{Янв} Feb{Фев} Mar{Мар} Apr{Апр} May{Май} Jun{Июн} Jul{Июл} Aug{Авг} Sep{Сен} Oct{Окт} Nov{Ноя} Dec{Дек}}",
+    "@monthTranslate": {
+        "placeholders": {
+            "month": {
+                "example": "Jan"
+            }
+        }
+    },
+
+    "noNetConnection": "Пожалуйста, проверьте ваше подключение к Интернету.",
+
+    "noNetConnectionNotification": "Нет подключения к Интернету",
+
+    "noGeolocationInfo": "Пожалуйста, включите службы определения местоположения",
+
+    "enterCity": "Введите название города",
+    
+    "smthWentWrong": "Что-то пошло не так.",
+
+    "nothingFound": "Ничего не найдено."
+}
